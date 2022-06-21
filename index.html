@@ -9,6 +9,10 @@
       Remove all code in `styles.css`!
     -->
     <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/06d5807eab.js"
+      crossorigin="anonymous"
+    ></script>
     <script type="module" src="script.js"></script>
   </head>
   <body>
@@ -20,14 +24,48 @@
       </div>
 
       <div class="container">
-        <h1 class="title">Search more than 50.000 products</h1>
         <div class="form-group">
           <div class="dropdown">
             <div class="default-option">All Categories</div>
           </div>
+          <div class="dropdown-list">
+            <ul>
+              <li><i class="fa-solid fa-socks"></i>Footwear</li>
+              <li><i class="fas fa-cloud-moon"></i>Clothing</li>
+              <li><i class="fas fa-tshirt"></i>Winter Wear</li>
+              <li><i class="fas fa-user-tie"></i>Etnic Wear</li>
+              <li><i class="fas fa-stopwatch"></i>Watches</li>
+            </ul>
+          </div>
+
+          <div class="search">
+            <input
+              type="text"
+              class="search-input"
+              placeholder="Search more than 50.000 products"
+            />
+          </div>
+
+          <button class="btn" type="submit">
+            <svg
+              class="w-6 h-6"
+              width="15"
+              height="15"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+              ></path>
+            </svg>
+          </button>
         </div>
       </div>
-      <div></div>
     </header>
     <nav></nav>
   </body>
